@@ -1,0 +1,13 @@
+C:\code\vststask\MoveFilesTask\MoveFilesTask\bin\Debug\netcoreapp3.1\MoveFilesTask.exe
+C:\code\vststask\MoveFilesTask\MoveFilesTask\bin\Debug\netcoreapp3.1\MoveFilesTask.deps.json
+C:\code\vststask\MoveFilesTask\MoveFilesTask\bin\Debug\netcoreapp3.1\MoveFilesTask.runtimeconfig.json
+C:\code\vststask\MoveFilesTask\MoveFilesTask\bin\Debug\netcoreapp3.1\MoveFilesTask.runtimeconfig.dev.json
+C:\code\vststask\MoveFilesTask\MoveFilesTask\bin\Debug\netcoreapp3.1\MoveFilesTask.dll
+C:\code\vststask\MoveFilesTask\MoveFilesTask\bin\Debug\netcoreapp3.1\MoveFilesTask.pdb
+C:\code\vststask\MoveFilesTask\MoveFilesTask\obj\Debug\netcoreapp3.1\MoveFilesTask.csprojAssemblyReference.cache
+C:\code\vststask\MoveFilesTask\MoveFilesTask\obj\Debug\netcoreapp3.1\MoveFilesTask.AssemblyInfoInputs.cache
+C:\code\vststask\MoveFilesTask\MoveFilesTask\obj\Debug\netcoreapp3.1\MoveFilesTask.AssemblyInfo.cs
+C:\code\vststask\MoveFilesTask\MoveFilesTask\obj\Debug\netcoreapp3.1\MoveFilesTask.csproj.CoreCompileInputs.cache
+C:\code\vststask\MoveFilesTask\MoveFilesTask\obj\Debug\netcoreapp3.1\MoveFilesTask.dll
+C:\code\vststask\MoveFilesTask\MoveFilesTask\obj\Debug\netcoreapp3.1\MoveFilesTask.pdb
+C:\code\vststask\MoveFilesTask\MoveFilesTask\obj\Debug\netcoreapp3.1\MoveFilesTask.genruntimeconfig.cache

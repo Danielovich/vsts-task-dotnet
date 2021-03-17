@@ -1,0 +1,50 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Microsoft/azure-pipelines-task-lib/master/tasks.schema.json",
+  "id": "7a3fbeab-c278-458e-94f8-f8cb044d10e9",
+  "name": "simpletaskdotnet",
+  "friendlyName": "simpletask dotnet",
+  "instanceNameFormat": "simpletask dotnet",
+  "description": "simpletask dotnet",
+  "helpMarkDown": "",
+  "category": "Build",
+  "author": "Daniel Frost",
+  "version": {
+    "Major": 0,
+    "Minor": 6,
+    "Patch": 0
+  },
+  "groups": [
+    {
+      "name": "inputGroup",
+      "displayName": "Source",
+      "isExpanded": true
+    }
+  ],
+  "inputs": [
+    {
+      "name": "name",
+      "type": "string",
+      "label": "Your name",
+      "defaultValue": "",
+      "required": true,
+      "helpMarkDown": "Your name",
+      "groupName": "inputGroup"
+    },
+    {
+      "name": "directory",
+      "type": "string",
+      "label": "Azure DevOps predefined variable",
+      "defaultValue": "$(System.TeamProject)",
+      "required": true,
+      "helpMarkDown": "Directory",
+      "groupName": "inputGroup"
+    }
+  ],
+  "execution": {
+    "Process": {
+      "target": "dotnet",
+      "argumentFormat": "$(currentDirectory)\\MoveFilesTask\\MoveFilesTask\\bin\\Release\\netcoreapp3.1\\MoveFilesTask.dll /name:\"$(name)\" \"$(directory)\" ",
+      "workingDirectory": "$(currentDirectory)"
+    }
+  }
+}

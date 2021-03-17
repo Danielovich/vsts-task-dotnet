@@ -1,0 +1,48 @@
+{
+  "id": "9b43df30-8634-11eb-9d79-395fe860613b",
+  "name": "simpletaskdotnet",
+  "friendlyName": "simpletaskdotent",
+  "description": "d",
+  "author": "daniel",
+  "helpMarkDown": "Replace with markdown to show in help",
+  "category": "Utility",
+  "visibility": [
+    "Build",
+    "Release"
+  ],
+  "demands": [],
+  "version": {
+    "Major": "0",
+    "Minor": "1",
+    "Patch": "0"
+  },
+  "minimumAgentVersion": "1.95.0",
+  "instanceNameFormat": "simpletaskdotnet $(message)",
+  "inputs": [
+    {
+      "name": "cwd",
+      "type": "filePath",
+      "label": "Working Directory",
+      "defaultValue": "",
+      "required": false,
+      "helpMarkDown": "Current working directory when simpletaskdotnet is run."
+    },
+    {
+      "name": "msg",
+      "type": "string",
+      "label": "Message",
+      "defaultValue": "Hello World",
+      "required": true,
+      "helpMarkDown": "Message to echo out"
+    }
+  ],
+  "execution": {
+    "Node": {
+      "target": "sample.js",
+      "argumentFormat": ""
+    },
+    "PowerShell3": {
+      "target": "sample.ps1"
+    }
+  }
+}

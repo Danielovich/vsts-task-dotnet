@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\MoveFilesTask",
+    "\\MoveFilesTask\\MoveFilesTask\\bin",
+    "\\MoveFilesTask\\MoveFilesTask\\bin\\Debug",
+    "\\MoveFilesTask\\MoveFilesTask\\bin\\Debug\\netcoreapp3.1",
+    "\\MoveFilesTask\\MoveFilesTask\\bin\\Release",
+    "\\MoveFilesTask\\MoveFilesTask\\bin\\Release\\netcoreapp3.1"
+  ],
+  "SelectedNode": "\\MoveFilesTask\\MoveFilesTask.sln",
+  "PreviewInSolutionExplorer": false
+}
